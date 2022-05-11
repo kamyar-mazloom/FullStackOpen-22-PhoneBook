@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const password = process.argv[2];
 
-const url = `mongodb+srv://mangoDB-phonebook:${password}@cluster0.nfrtr.mongodb.net/phonebook?retryWrites=true&w=majority`;
+const url = `mongodb+srv://mangoDB-phonebook:fheWPSqsIWCmrYZO@cluster0.nfrtr.mongodb.net/phonebook?retryWrites=true&w=majority`;
 
 mongoose.connect(url);
 
